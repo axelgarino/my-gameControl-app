@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-gameControl-app';
+
+  oddNumbers: number[] = [];
+  evenNumbers: number[] = [];
+
+  onIntervalFired(firedNumbernumber: number){
+    if(firedNumbernumber%2===0){
+      this.evenNumbers.push(firedNumbernumber)
+    }else{
+      this.oddNumbers.push(firedNumbernumber)
+    }
+  }
+
+
 }
