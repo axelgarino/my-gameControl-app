@@ -11,11 +11,11 @@ export class AppComponent {
   oddNumbers: number[] = [];
   evenNumbers: number[] = [];
 
-  onIntervalFired(firedNumbernumber: number){
-    if(firedNumbernumber%2===0){
-      this.evenNumbers.push(firedNumbernumber)
+  onIntervalFired(firedNumber: number){
+    if(firedNumber%2===0){
+      this.evenNumbers.push(firedNumber)
     }else{
-      this.oddNumbers.push(firedNumbernumber)
+      this.oddNumbers.push(firedNumber)
     }
   }
 

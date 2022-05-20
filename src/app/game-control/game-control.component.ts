@@ -11,7 +11,6 @@ export class GameControlComponent implements OnInit {
   interval;
   lastNumber=0;
 
-
   constructor() { }
 
   ngOnInit(): void {
